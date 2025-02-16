@@ -1,7 +1,7 @@
 import express from 'express';
 import deliveryController from '../controllers/deliveryController.js';
 import { body, validationResult } from 'express-validator';
-import deliveryModel from '../models/deliveryModel.js';
+import deliveryModel from '../models/deliverymodel.js';
 
 const router = express.Router();
 
