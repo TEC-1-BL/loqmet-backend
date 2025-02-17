@@ -7,7 +7,7 @@ import dotenv from 'dotenv';
 import orderRouter from './routes/orderRoute.js';
 import kitchenRoute from './routes/kitchenRoute.js';
 import deliveryRouter from './routes/deliveryRoutes.js';
-import foodRouter from './routes/foodRoutes.js';
+import foodRouter from './routes/foodroutes.js';
 
 
 dotenv.config();
