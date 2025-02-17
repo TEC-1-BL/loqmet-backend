@@ -1,6 +1,6 @@
 import kitchenOwnerModel from '../models/kitchenOwnerModel.js';
 import foodModel from '../models/foodModel.js';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs'; 
 import jwt from "jsonwebtoken";
 import validator from "validator";
 import mongoose from 'mongoose';

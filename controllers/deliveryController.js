@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs'; 
 import deliveryModel from '../models/deliverymodel.js';
 
 const deliveryController = {
